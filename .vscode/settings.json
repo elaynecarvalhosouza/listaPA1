@@ -2,6 +2,5 @@
   "C_Cpp_Runner.cCompilerPath": "E:\\Setup´s\\mingw64\\bin\\gcc.exe",
   "C_Cpp_Runner.cppCompilerPath": "E:\\Setup´s\\mingw64\\bin\\g++.exe",
   "C_Cpp_Runner.debuggerPath": "E:\\Setup´s\\mingw64\\bin\\gdb.exe",
-  "C_Cpp_Runner.makePath": "E:\\Setup´s\\mingw64\\bin\\make.exe",
-  "C_Cpp.default.compilerPath": "c:\\Users\\Elayne\\.vscode\\extensions\\bartmanabyss.amiga-debug-1.0.0\\bin\\opt\\bin\\m68k-amiga-elf-gcc.exe"
+  "C_Cpp_Runner.makePath": "E:\\Setup´s\\mingw64\\bin\\make.exe"
 }
