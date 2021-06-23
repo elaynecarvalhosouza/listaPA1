@@ -14,14 +14,14 @@ void crescente(float *e, int n){
             }
         }
     }
-}
+}//Função de ordem crescente
 
 int main(int argc, char *argv[])
 {
     float tempo;
     time_t t_ini, t_fin;
 
-    t_ini = time(NULL);
+    t_ini = time(NULL);//mecanismo para medir tempo
 
     int n;
     float *e;
@@ -47,6 +47,6 @@ int main(int argc, char *argv[])
     t_fin = time(NULL);
 
     tempo = difftime(t_fin, t_ini);
-    printf("\nTempo: %f\n", tempo);
+    printf("\nTempo: %f\n", tempo);//Mostrando a tempo de execução
     return 0;
 }
