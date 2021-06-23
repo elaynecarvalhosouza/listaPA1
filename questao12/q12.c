@@ -2,8 +2,8 @@
 #include<stdlib.h>
 
 /* ponteiros para função é exatamento o que é ponteiros para um inteiros, ele guarda
- * endereço de uma função, sendo possivel acessa-lo atravez de uma variavel do tipo ponteiro para função
- * ponteiro para funcao pode ser passado como argumentos para outras funções. */
+  endereço de uma função, sendo possivel acessa-lo atravez de uma variavel do tipo ponteiro para função
+  ponteiro para funcao pode ser passado como argumentos para outras funções. */
 
 // EXEMPLO 
 
