@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 
-/* ponteiros para função é exatamento o que é ponteiros para um inteiros, ele guarda
-  endereço de uma função, sendo possivel acessa-lo atravez de uma variavel do tipo ponteiro para função
-  ponteiro para funcao pode ser passado como argumentos para outras funções. */
+/* ponteiros para função é a mesma coisa que um ponteiro é para um inteiro, ele guarda
+  endereço de uma função, sendo possível acessa-lo atravez de uma variável do tipo ponteiro para função
+  ponteiro. O nde a funcao pode ser passadoa como argumentos para outras funções. */
 
-// EXEMPLO 
+// EXEMPLO
 
-int values[] = { 50, 10, 100, 90, 30, 35 };
+int valores[] = {50, 10, 100, 90, 30, 35};
 
-int compare (const void * a, const void * b)
+int compare(const void *x, const void *y)
 {
-  return ( *(int*)a - *(int*)b );
-}
+  return (*(int *)x - *(int *)y);
+}//Função comparação
 
 int main()
 {
-      int n;
-      qsort (values, 6, sizeof(int), compare);
-      for (n=0; n<6; n++)
-         printf ("%d ",values[n]);
-      return 0;
-    }
+  int n;
+  qsort(valores, 6, sizeof(int), compare);
+  for (n = 0; n < 6; n++)
+    printf("%d ", values[n]);
+  return 0;
+}//Fim código

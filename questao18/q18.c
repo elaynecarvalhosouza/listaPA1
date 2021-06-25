@@ -18,7 +18,7 @@ void multi_matriz(int** A,int** B,int** C, int nl, int ncA, int ncB)
         }
     }
 
-}
+}//Função para multiplicação dos vetores
 
 
 int main()
@@ -29,17 +29,17 @@ int main()
     A = (int**) malloc(nl*sizeof(int*));
     B = (int**) malloc(nl*sizeof(int*));
     C = (int**) malloc(nl*sizeof(int*));
-
+    //Alocando
     for(int i=0; i<nl; i++){
         A[i] = malloc(ncA*nl*sizeof(int));
         B[i] = malloc(ncB*nl*sizeof(int));
         C[i] = malloc(ncB*nl*sizeof(int));
       }
-
+    
     A[0][0] = 1; A[0][1] = 2; A[1][0] = 3; A[1][1] = 4;
     B[0][0] = 1; B[0][1] = 2; B[1][0] = 3; B[1][1] = 4;
 
-    multi_matriz(A,B,C,nl,ncA,ncB);
+    multi_matriz(A,B,C,nl,ncA,ncB);//Chamando a função
 
     for(int i = 0; i < nl; i++)
     {
@@ -49,11 +49,11 @@ int main()
         }
         printf(" \n");
     }
-
+    //Liberando memória
     free(A[0]);
     free(B[0]);
     free(A);
     free(B);
 
     return 0;
-}
+}//Fim código

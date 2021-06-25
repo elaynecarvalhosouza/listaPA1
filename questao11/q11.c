@@ -16,4 +16,4 @@ int main()
     pf = value; // não é valido
     pf = aloha; // é valido
     return 0;
-}
+}//Fim código

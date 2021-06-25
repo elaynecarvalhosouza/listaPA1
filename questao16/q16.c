@@ -49,4 +49,4 @@ int main(int argc, char *argv[])
     tempo = difftime(t_fin, t_ini);
     printf("\nTempo: %f\n", tempo);//Mostrando a tempo de execução
     return 0;
-}
+}//Fim código
